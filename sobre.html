@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: "Raleway", sans-serif
+    }
+    
+    body,
+    html {
+        height: 100%;
+        line-height: 1.8;
+    }
+    /* Full height image header */
+    
+    .bgimg-1 {
+        background-position: center;
+        background-size: cover;
+        background-image: url("img/bg-1.jpg");
+        min-height: 100%;
+    }
+    
+    .w3-bar .w3-button {
+        padding: 16px;
+    }
+</style>
+
+<body>
+
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+        <div class="w3-bar w3-white w3-card" id="myNavbar">
+            <a href="index.html" class="w3-bar-item w3-button">
+                <img src="img/logo.png" alt="Logo" style="height: 28px;">
+            </a>
+            <!-- Right-sided navbar links -->
+            <div class="w3-right w3-hide-small">
+                <a href="index.html" class="w3-bar-item w3-button"><i class="fa fa-home"></i> Inicial</a>
+                <a href="sobre.html" class="w3-bar-item w3-button"><i class="fa fa-user"></i> Sobre</a>
+                <div class="w3-dropdown-hover">
+                    <button class="w3-button"><i class="fa fa-th"></i> Projetos</button>
+                    <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                      <a href="projetos.html" class="w3-bar-item w3-button">Arquitetura</a>
+                      <a href="projetos.html" class="w3-bar-item w3-button">Interiores</a>
+                      <a href="projetos.html" class="w3-bar-item w3-button">Cidades</a>
+                    </div>
+                  </div>
+                <a href="contato.html" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> Contato</a>
+            </div>
+            <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+            <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </div>
+
+    <!-- Sidebar on small screens when clicking the menu icon -->
+    <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+        <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Fechar</a>
+        <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button">Inicial</a>
+        <a href="sobre.html"  onclick="w3_close()" class="w3-bar-item w3-button">Sobre</a>
+        <a href="projetos.html" onclick="w3_close()" class="w3-bar-item w3-button">Arquitetura</a>
+        <a href="projetos.html" onclick="w3_close()" class="w3-bar-item w3-button">Interiores</a>
+        <a href="projetos.html" onclick="w3_close()" class="w3-bar-item w3-button">Cidades</a>
+        <a href="contato.html" onclick="w3_close()" class="w3-bar-item w3-button">Contato</a>
+    </nav>
+
+
+    
+    <!-- Promo Section - "We know design" -->
+    <div class="w3-container" style="padding:128px 16px">
+        <div class="w3-row-padding">
+            <div class="w3-col m6">
+                
+      
+        <!-- <h1 style="margin-top:0;">Sobre</h1> -->
+        
+        <p id="yui_3_16_0_ym19_1_1513294284936_1994">O BLOCO Arquitetos foi fundado em Brasília pelos arquitetos Daniel Mangabeira (UnB, 1999), Henrique Coutinho (UnB, 1997) e Matheus Seco (UnB, 1999). O escritório produz projetos de diferentes escalas e programas, desde casas e edifícios a interiores e instalações temporárias. O BLOCO compartilha da visão do espaço urbano como resultado da interação contínua entre construções de pequeno, médio e grande portes. Por isso, cada trabalho é iniciado a partir da reflexão sobre seu lugar na cidade.</p>
+        <p id="yui_3_16_0_ym19_1_1513294284936_2207">Os projetos do BLOCO têm relação direta com condicionantes específicos que podem ir desde a topografia e orientação solar de um terreno ao orçamento e mão-de-obra disponíveis. Os limites impostos por cada programa são sempre encarados como possibilidades de atuação. Acima de tudo o escritório considera que cada projeto pode ser uma poderosa ferramenta de transformação de seu contexto.</p>
+        <p>O BLOCO Arquitetos é um dos membros fundadores do&nbsp;<a href="https://www.facebook.com/pg/atelierpiloto/about/?ref=page_internal">Atelier Piloto.</a><strong>&nbsp;</strong>A intenção do coletivo é&nbsp;promover a interação entre estudantes, profissionais e escolas de arquitetura por meio da organização de oficinas de projeto que promovam o trabalho colaborativo com um objetivo comum: pensar a cidade.</p>
+        <h2></h2>
+        <p>&nbsp;</p>
+        <h2><strong>Principais Prêmios, Exposições e Seleções&nbsp;</strong></h2>
+        <p>2019- A Casa dos Pórticos é premiada no <a href="https://www.instagram.com/p/B5qqAT-lPlV/?utm_source=ig_web_copy_link">Prêmio IAB-SP 2019</a> na categoria Residencial Unifamiliar, São Paulo</p>
+        <p>2019-&nbsp;A Casa Vila Rica é um dos 12 finalistas do&nbsp;<a href="https://www.archdaily.com.br/br/922221/anunciados-os-finalistas-do-premio-de-arquitetura-instituto-tomie-ohtake-akzonobel-2019">Prêmio de Arquitetura Tomie Ohtake AkzoNobel 2019</a>, São Paulo</p>
+        <p>2018-A Casa das Praças recebe Menção Honrosa na Premiação Anual do Instituto de Arquitetos do Brasil – Rio de Janeiro (IAB-RJ)</p>
+        <p>2018-A Casa 711H recebe Menção Honrosa na Premiação Anual do Instituto de Arquitetos do Brasil – São Paulo (IAB-SP)</p>
+        <p>2018 – O Bloco é um dos escritórios convidados para participar da exposição “<a href="http://www.mcb.org.br/pt-BR/programacao/exposicoes/mostra-le-corbusier-interpretacoes-contemporaneas-do-modernismo">Experimentando Le Corbusier</a>“, no Museu da Casa Brasileira em São Paulo, entre os meses de junho e agosto. O escritório participa com a instalação chamada de <strong>“<a href="http://www.bloco.arq.br/outros/brasilia-radieuse/">LC+LC=BSB</a>“.</strong> A exposição foi organizada pelo Instituto Cremme e a expografia ficou a cargo do MNMA Estudio.</p>
+        <p>2018 – A Casa 711H é um dos 10 finalistas do&nbsp;<a href="http://premioarquitetura.institutotomieohtake.org.br/selecionados-5o-premio-de-arquitetura-instituto-tomie-ohtake-akzonobel/">Prêmio de Arquitetura Tomie Ohtake AkzoNobel 2018</a> , São Paulo</p>
+        <p>2018 – O <a href="https://www.archdaily.com.br/br/892653/22-projetos-vencedores-do-prix-versailles-2018-na-america-central-do-sul-e-caribe">Restaurante Norton é vencedor do Prix Versailles 2018</a>, categoria Restaurantes – Exterior, etapa continental (Américas e Caribe)</p>
+        <p>2018 – A Casa Vila Rica é premiada com o <a href="https://www.archdaily.com.br/br/891529/conheca-os-vencedores-do-premio-obra-do-ano-2018-archdaily-brasil">2o prêmio do concurso “Obra do Ano – ODA 2018”</a>, promovido pelo portal Archdaily</p>
+        <p>2018 – A Casa Aresta&nbsp;é indicada para concorrer ao <a href="https://arch.iit.edu/prize/mchap/selected-works">Mies Crown Hall Americas Prize (MCHAP) 2017-2018</a>, promovido pelo Illinois Institute of Technology (IIT), Chicago</p>
+        <p>2017 – A loja COR é a vencedora da categoria “Arquitetura de Interiores” na <strong>55a premiação anual nacional do Instituto de Arquitetos do Brasil do Rio de Janeiro (IAB-RJ)</strong></p>
+        <p>2017 – O Clube Alphaville Volta Redonda recebe menção honrosa na categoria “Novas Edificações” na <strong>55a premiação anual nacional do Instituto de Arquitetos do Brasil do Rio de Janeiro (IAB-RJ).</strong></p>
+        <p>2017 – O Restaurante Authoral recebe menção honrosa na categoria “Arquitetura de Interiores” na <strong>55a premiação anual nacional do Instituto de Arquitetos do Brasil do Rio de Janeiro (IAB-RJ)</strong></p>
+        <p>2017 – O lavabo da casa MR53 recebe o primeiro prêmio do concurso nacional promovido pela <strong>Deca.</strong></p>
+        <p>2017 – A Casa Aresta é um dos projetos pré-selecionados para concorrer à premiação da Bienal Internacional de Arquitetura de Buenos Aires.</p>
+        <p>2017 – A Casa Torreão é finalista do <a href="http://premioarquitetura.institutotomieohtake.org.br/4o-premio-akzonobel/">Prêmio de Arquitetura Akzo Nobel Tomie Ohtake 2017<strong>&nbsp;</strong></a>, São Paulo.</p>
+        <p>2017 – Projeto da loja “Outsider” é um dos representantes do Brasil no livro “Radical – 50 Arquitecturas Latinoamericanas”, de Arquine, México.</p>
+        <p>2016 – Casa Paineira recebe uma indicação para concorrer ao prêmio <strong>MCHAP-2016</strong> “Mies Crown Hall Americas Prize”, promovido pelo IIT – Illinois Institute of Technology – Chicago</p>
+        <p>2016 – Loja Outsider é finalista do Prêmio “Building of the Year Award – Archdaily” , categoria comercial</p>
+        <p>2015 – O projeto da loja Outsider vence o 1o lugar do prêmio “O Melhor da Arquitetura 2015” – Brasil, na categoria comercial.</p>
+        <p>2015 – BLOCO Arquitetos participa como um dos representantes do Brasil na Bienal Latinoamericana de Arquitetura – <strong>BAL2015</strong>&nbsp;em Pamplona, Espanha, juntamente com o escritório AR Arquitetos. No mesmo mês de abril a BLOCO participa de conferências na Casa de America em Madri e na Universidade de Alicante</p>
+        <p>2014 – O edifício POSEAD em Brasília, de BLOCO Arquitectos (na época sob o nome DOMO Arquitetos), esteve entre los 15 projectos pré-selecionados para a IX Bienal Ibero-Americana de Arquitectura y Urbanismo em Rosario, Argentina.</p>
+        <p>2014 – BLOCO Arquitetos é um dos dois escritórios selecionados para representar o &nbsp;Brasil na Bienal Latinoamericana de Arquitetura – <strong>BAL2015</strong>&nbsp;em Pamplona, Espanha.</p>
+        <p>2013 – A instalação “Casa Aberta” da Bloco Arquitetos é selecionada para a <strong>X Bienal Internacional de Arquitetura de São Paulo</strong>. A instalação foi construída no Centro Cultural São Paulo (CCSP) e ficou exposta de outubro a dezembro de 2013.</p>
+        <p>2013 – A BLOCO Arquitetos é finalista do prêmio “O Melhor da Arquitetura”&nbsp; com o Clube Alphaville Brasília.</p>
+        <p>2011 – A BLOCO Arquitetos é finalista do prêmio “O Melhor da Arquitetura” com a Casa Migliari.</p>
+        <p>2009 – A projeto da Casa Tangram é um dos vencedores do prêmio&nbsp; “O Melhor da Arquitetura 2009” na categoria residencial unifamiliar.</p>
+        <h2></h2>
+        <p>&nbsp;</p>
+        <h2><strong>Sócios Diretores</strong></h2>
+        <p><strong>Daniel Mangabeira,&nbsp;</strong>Arquiteto e Urbanista pela Universidade de Brasília, 1999. Conselheiro da Fundação Athos Bulcão, Brasília, 2009-2011. Graduou-se com Distinção no mestrado “MA – Art in Architecture” na Westminster School of Architecture, Londres, 2012-2013.&nbsp; Atualmente é presidente do CAU-DF (Conselho de Arquitetura e Urbanismo-DF),&nbsp; gestão 2018-2020.</p>
+        <p><strong>Henrique Coutinho,&nbsp;</strong>Arquiteto e Urbanista pela Universidade de Brasília, 1997</p>
+        <p><strong>Matheus Seco, </strong>Arquiteto e Urbanista pela Universidade de Brasília, 1999. Foi bolsista Chevening e graduou-se com Distinção no mestrado “M.Arch – Master in Architectural Design” na Bartlett School of Architecture – UCL, Londres, 2003-2004. Foi presidente do IAB-DF (Instituto de Arquitetos do Brasil –DF) entre 2014 e 2016.</p>
+        <h2></h2>
+        <p>&nbsp;</p>
+        <h2><strong>Arquitetos Associados</strong></h2>
+        <p><strong>Giovanni Cristofaro &nbsp;</strong>Arquiteto e Urbanista, Universidade de Brasília, 2017. London South Bank University, Londres, 2014-2015</p>
+        <p><strong>Guilherme Mahana&nbsp; </strong>Arquiteto e Urbanista, UniEuro, 2009</p>
+        <p><strong>Luciana Ribeiro </strong>Arquiteta e Urbanista, UniCEUB, 2012</p>
+        <p><strong>Marina Lira &nbsp;</strong>Arquiteta e Urbanista, Universidade de Brasília, 2016. Illinois Institute of Technology, Chicago, 2013-2014</p>
+        <p><strong>Victor Machado </strong>Arquiteto e Urbanista, UniCEUB, 2011</p>
+        <h2></h2>
+        <p>&nbsp;</p>
+        <h2><strong>Estagiários</strong></h2>
+        <p><strong>Bárbara Neumann,&nbsp;</strong>Estudante de Arquitetura, IESB</p>
+        <p><strong>Ewerton Alves,&nbsp;&nbsp;</strong>Estudante de Arquitetura, Universidade Católica de Brasília</p>
+        <p><strong>Fernando Longhi,&nbsp;&nbsp;</strong>Estudante de Arquitetura, Universidade de Brasília. Nottingham Trent University, Nottingham, 2013-2014</p>
+        <p><strong>Pedro Ribs,&nbsp;</strong>Estudante de Arquitetura, Universidade de Brasília.&nbsp;Middlesex University, Londres, 2014-2015</p>
+        <h2></h2>
+        <p>&nbsp;</p>
+        <h2><strong>Cálculo Estrutural</strong></h2>
+        <p><strong>Eng. Civil André Torres e Vista Engenharia</strong></p>
+        <h2></h2>
+        <p>&nbsp;</p>
+        <h2><strong>Instalações</strong></h2>
+        <p><strong>Grid Engenharia</strong></p>
+        <h2></h2>
+        <p>&nbsp;</p>
+        <h2><strong>Assistente Administrativo</strong></h2>
+        <p><strong>Adriana Alves</strong></p>
+        <p>&nbsp;</p>
+        <p><strong>O Bloco Arquitetos só utiliza softwares originais e legalizados.&nbsp;</strong></p>
+              
+        </div>
+        </div>
+    </div>
+
+    <script>
+        // Modal Image Gallery
+        function onClick(element) {
+            document.getElementById("img01").src = element.src;
+            document.getElementById("modal01").style.display = "block";
+            var captionText = document.getElementById("caption");
+            captionText.innerHTML = element.alt;
+        }
+
+
+        // Toggle between showing and hiding the sidebar when clicking the menu icon
+        var mySidebar = document.getElementById("mySidebar");
+
+        function w3_open() {
+            if (mySidebar.style.display === 'block') {
+                mySidebar.style.display = 'none';
+            } else {
+                mySidebar.style.display = 'block';
+            }
+        }
+
+        // Close the sidebar with the close button
+        function w3_close() {
+            mySidebar.style.display = "none";
+        }
+    </script>
+
+</body>
+
+</html>

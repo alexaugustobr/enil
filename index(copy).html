@@ -27,7 +27,7 @@
     .bgimg-1 {
         background-position: center;
         background-size: cover;
-        background-image: url("/img/bg-1.jpg");
+        background-image: url("img/bg-1.jpg");
         min-height: 100%;
     }
     
@@ -41,7 +41,9 @@
     <!-- Navbar (sit on top) -->
     <div class="w3-top">
         <div class="w3-bar" id="myNavbar">
-            <a href="#home" class="w3-bar-item w3-button w3-wide">LOGO</a>
+            <a href="#home" class="w3-bar-item w3-button">
+                <img src="img/logo.png" alt="Logo" style="height: 28px;">
+            </a>
             <!-- Right-sided navbar links -->
             <div class="w3-right w3-hide-small">
                 <a href="#home" class="w3-bar-item w3-button">Inicial</a>
@@ -58,13 +60,12 @@
     </div>
 
     <!-- Sidebar on small screens when clicking the menu icon -->
-    <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
-        <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
-        <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
-        <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">TEAM</a>
-        <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">WORK</a>
-        <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">PRICING</a>
-        <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+       <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+        <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Fechar</a>
+        <a href="#home" onclick="w3_close()" class="w3-bar-item w3-button">Inicial</a>
+        <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">Sobre</a>
+        <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">Projetos</a>
+        <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">Contato</a>
     </nav>
 
     <!-- Header with full-height image -->
@@ -346,7 +347,7 @@
                 </p>
             </form>
             <!-- Image of location/map -->
-            <img src="/img/map.jpg" class="w3-image w3-greyscale" style="width:100%;margin-top:48px">
+            <img src="img/map.jpg" class="w3-image w3-greyscale" style="width:100%;margin-top:48px">
         </div>
     </div>
 
